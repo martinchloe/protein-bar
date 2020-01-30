@@ -5,15 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Document</title>
+    <title>Protein Bar</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:900,900i|Lora:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 </head>
 <body>
     <header>
+        <div id="fixed-menu">
+            <img src="img/logo-protein-bar.png" alt="" class="logo-protein">
+            <div id="burger-menu" class="burger-menu">
+                <div class="burger-bar"></div>
+                <div class="burger-bar"></div>
+                <div class="burger-bar"></div>
+            </div>
+        </div>
+        <div id="toggle-menu">
+            <ul>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Story</a></li>
+                <li><a href="#">Catering</a></li>
+                <li><a href="#">Rewards</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Franchise</a></li>
+                <li><a href="#">Pro-team</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Order online</a></li>
+                <li><a href="#">Email signup</a></li>
+            </ul>
+        </div>
     </header>
-    <main>
+    <main id="main">
+        <section class="hero">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="on-swiper-slide">
+                            <h2>Go beyond</h2>
+                            <p>100% plant beaf based beyond beef arrives at PBK</p>
+                            <div><a href="#">View menu</a></div>
+                        </div>
+                        <img src="img/go-beyond.jpg" alt="Go beyond">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/good-morning-better-breakfast.jpg" alt="Good morning better breakfast">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/this-is-game-changer.jpg" alt="This is game changer">
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="protein-is-power">
+            <div class="protein-is-power-content">
+                <h2>Protein is power</h2>
+                <p>Every diet needs protein for all day brain and body energy</p>
+                <a href="#">View menus</a>
+            </div>
+        </section>
+        <section>
+            <img src="img/elena.jpg" alt="">
+        </section><!-- 
+        --><section>
+            <img src="img/our-story.jpg" alt="">
+        </section>
+        <section>
+            <img src="img/protein-bar.jpg" alt="">
+        </section>
+        <section class="protein-is-power">
+            <div class="protein-is-power-content">
+                <h2>Protein is power</h2>
+                <p>Every diet needs protein for all day brain and body energy</p>
+                <a href="#">View menus</a>
+            </div>
+        </section>
+        <section id="socials">
+            <p>Eat socially</p>
+            <p>Follow us</p>
+            <p>@theproteinbar</p>
+        </section>
     </main>
-    <footer>
-    </footer>  
+    <footer id="footer">
+        <div>
+            <a href="#">Order online</a>
+        </div>
+        <div>
+            <a href="#">Email signup</a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>  
     <script src="js/script.min.js"></script>
+    <script src="js/swiper.min.js"></script>
 </body>
 </html>
